@@ -437,7 +437,7 @@
 		AB8BC21215DD867D00EF1665 /* CSSubscriberImportResult.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; lineEnding = 0; path = CSSubscriberImportResult.m; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objc; };
 		AB9122EC1563E8610089DE3C /* libCreateSend.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libCreateSend.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		AB9122EF1563E8610089DE3C /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
-		AB9122FC1563E8620089DE3C /* CreateSendTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = CreateSendTests.octest; path = CreateSendTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		AB9122FC1563E8620089DE3C /* CreateSendTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CreateSendTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		AB9122FD1563E8620089DE3C /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
 		AB9122FF1563E8620089DE3C /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		AB9BD7E615D9A77F00C8268A /* CSWebhook.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; lineEnding = 0; path = CSWebhook.h; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objcpp; };
@@ -616,7 +616,7 @@
 			isa = PBXGroup;
 			children = (
 				AB9122EC1563E8610089DE3C /* libCreateSend.a */,
-				AB9122FC1563E8620089DE3C /* CreateSendTests.octest */,
+				AB9122FC1563E8620089DE3C /* CreateSendTests.xctest */,
 				22189CDB18E97191006B5873 /* libCreateSend.a */,
 				22189D4918E979F7006B5873 /* Mac Tests.xctest */,
 			);
@@ -1043,7 +1043,7 @@
 			);
 			name = "iOS Tests";
 			productName = "createsend-objcTests";
-			productReference = AB9122FC1563E8620089DE3C /* CreateSendTests.octest */;
+			productReference = AB9122FC1563E8620089DE3C /* CreateSendTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
 /* End PBXNativeTarget section */
