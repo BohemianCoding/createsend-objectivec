@@ -251,6 +251,13 @@
 		ABC2888D15D002A7006947AE /* CSAPI+OAuth.h in Headers */ = {isa = PBXBuildFile; fileRef = ABC2888B15D002A7006947AE /* CSAPI+OAuth.h */; };
 		ABC2888E15D002A7006947AE /* CSAPI+OAuth.m in Sources */ = {isa = PBXBuildFile; fileRef = ABC2888C15D002A7006947AE /* CSAPI+OAuth.m */; };
 		ABC2889015D005A5006947AE /* CSAPI+OAuthSpec.m in Sources */ = {isa = PBXBuildFile; fileRef = ABC2888F15D005A5006947AE /* CSAPI+OAuthSpec.m */; };
+		F51E504318E9A21600EA1A16 /* NSData+Base64.m in Sources */ = {isa = PBXBuildFile; fileRef = AB690BB015644C820093FC91 /* NSData+Base64.m */; };
+		F51E504818E9A22300EA1A16 /* NSURL+CSAPI.h in Headers */ = {isa = PBXBuildFile; fileRef = AB45480D15D30D13008B5DC7 /* NSURL+CSAPI.h */; };
+		F51E504918E9A22300EA1A16 /* NSURL+CSAPI.m in Sources */ = {isa = PBXBuildFile; fileRef = AB45480E15D30D13008B5DC7 /* NSURL+CSAPI.m */; };
+		F51E504A18E9A22300EA1A16 /* CSSSKeychain.h in Headers */ = {isa = PBXBuildFile; fileRef = ABB8B5C515D03E46005343D6 /* CSSSKeychain.h */; };
+		F51E504B18E9A22300EA1A16 /* NSString+URLEncoding.h in Headers */ = {isa = PBXBuildFile; fileRef = AB690BDC15645EA40093FC91 /* NSString+URLEncoding.h */; };
+		F51E504C18E9A22300EA1A16 /* NSString+URLEncoding.m in Sources */ = {isa = PBXBuildFile; fileRef = AB690BDD15645EA40093FC91 /* NSString+URLEncoding.m */; };
+		F51E504D18E9A22300EA1A16 /* NSData+Base64.h in Headers */ = {isa = PBXBuildFile; fileRef = AB690BAF15644C820093FC91 /* NSData+Base64.h */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -878,6 +885,7 @@
 				22189D2418E9755C006B5873 /* CSCampaign.h in Headers */,
 				22189D0D18E9752B006B5873 /* CSAPI+Account.h in Headers */,
 				22189D3818E9755C006B5873 /* CSCampaignEmailClient.h in Headers */,
+				F51E504D18E9A22300EA1A16 /* NSData+Base64.h in Headers */,
 				22189D1118E9752B006B5873 /* CSAPI+Lists.h in Headers */,
 				22189D2D18E9755C006B5873 /* CSPerson.h in Headers */,
 				22189D0E18E9752B006B5873 /* CSAPI+Campaigns.h in Headers */,
@@ -904,10 +912,13 @@
 				22189D2318E9755C006B5873 /* CSAdministrator.h in Headers */,
 				22189D3218E9755C006B5873 /* CSSubscriberHistoryItem.h in Headers */,
 				22189D2818E9755C006B5873 /* CSCampaignSummary.h in Headers */,
+				F51E504A18E9A22300EA1A16 /* CSSSKeychain.h in Headers */,
 				22189D1218E9752B006B5873 /* CSAPI+OAuth.h in Headers */,
 				22189D3118E9755C006B5873 /* CSSubscriberAction.h in Headers */,
 				22189D1318E9752B006B5873 /* CSAPI+Segments.h in Headers */,
+				F51E504818E9A22300EA1A16 /* NSURL+CSAPI.h in Headers */,
 				22189D2C18E9755C006B5873 /* CSPaginatedResult.h in Headers */,
+				F51E504B18E9A22300EA1A16 /* NSString+URLEncoding.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1226,11 +1237,13 @@
 				22189D6718E97D44006B5873 /* CSTemplate.m in Sources */,
 				22189D5518E97D31006B5873 /* CSAdministrator.m in Sources */,
 				22189D5E18E97D3C006B5873 /* CSPaginatedResult.m in Sources */,
+				F51E504918E9A22300EA1A16 /* NSURL+CSAPI.m in Sources */,
 				22189D2118E9753D006B5873 /* CSAPI.m in Sources */,
 				22189D6018E97D3C006B5873 /* CSSegment.m in Sources */,
 				22189D1D18E9753D006B5873 /* CSAPI+OAuth.m in Sources */,
 				22189D5A18E97D31006B5873 /* CSCampaignSummary.m in Sources */,
 				22189D1E18E9753D006B5873 /* CSAPI+Segments.m in Sources */,
+				F51E504318E9A21600EA1A16 /* NSData+Base64.m in Sources */,
 				22189D5C18E97D31006B5873 /* CSCustomField.m in Sources */,
 				22189D6618E97D3C006B5873 /* CSSuppressedRecipient.m in Sources */,
 				22189D6318E97D3C006B5873 /* CSSubscriberAction.m in Sources */,
@@ -1239,6 +1252,7 @@
 				22189D6B18E97D44006B5873 /* CSListForSubscriber.m in Sources */,
 				22189D1A18E9753D006B5873 /* CSAPI+Campaigns.m in Sources */,
 				22189D0A18E9750C006B5873 /* CreateSend.m in Sources */,
+				F51E504C18E9A22300EA1A16 /* NSString+URLEncoding.m in Sources */,
 				22189D5818E97D31006B5873 /* CSCampaignRecipientClicked.m in Sources */,
 				22189D6918E97D44006B5873 /* CSBillingDetails.m in Sources */,
 			);
