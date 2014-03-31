@@ -58,6 +58,30 @@
 		22189D3918E9755C006B5873 /* CSListForSubscriber.h in Headers */ = {isa = PBXBuildFile; fileRef = A35F7297168C61E8000BCE27 /* CSListForSubscriber.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		22189D4E18E97AF9006B5873 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AB9122EF1563E8610089DE3C /* Foundation.framework */; };
 		22189D4F18E97AFA006B5873 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AB9122EF1563E8610089DE3C /* Foundation.framework */; };
+		22189D5518E97D31006B5873 /* CSAdministrator.m in Sources */ = {isa = PBXBuildFile; fileRef = AB1D5F4F15DAD49F00207837 /* CSAdministrator.m */; };
+		22189D5618E97D31006B5873 /* CSCampaign.m in Sources */ = {isa = PBXBuildFile; fileRef = AB396A4715DD22A200CA2DE7 /* CSCampaign.m */; };
+		22189D5718E97D31006B5873 /* CSCampaignBouncedRecipient.m in Sources */ = {isa = PBXBuildFile; fileRef = AB396A5B15DD4A3900CA2DE7 /* CSCampaignBouncedRecipient.m */; };
+		22189D5818E97D31006B5873 /* CSCampaignRecipientClicked.m in Sources */ = {isa = PBXBuildFile; fileRef = AB396A6315DD4EFA00CA2DE7 /* CSCampaignRecipientClicked.m */; };
+		22189D5918E97D31006B5873 /* CSCampaignRecipient.m in Sources */ = {isa = PBXBuildFile; fileRef = AB396A5715DD46B400CA2DE7 /* CSCampaignRecipient.m */; };
+		22189D5A18E97D31006B5873 /* CSCampaignSummary.m in Sources */ = {isa = PBXBuildFile; fileRef = AB396A5315DD409E00CA2DE7 /* CSCampaignSummary.m */; };
+		22189D5B18E97D31006B5873 /* CSClient.m in Sources */ = {isa = PBXBuildFile; fileRef = ABA6B60915C6F05800EC55BC /* CSClient.m */; };
+		22189D5C18E97D31006B5873 /* CSCustomField.m in Sources */ = {isa = PBXBuildFile; fileRef = ABA6B60D15C6F05800EC55BC /* CSCustomField.m */; };
+		22189D5D18E97D31006B5873 /* CSList.m in Sources */ = {isa = PBXBuildFile; fileRef = ABA6B60F15C6F05800EC55BC /* CSList.m */; };
+		22189D5E18E97D3C006B5873 /* CSPaginatedResult.m in Sources */ = {isa = PBXBuildFile; fileRef = AB4547FF15D2E7D6008B5DC7 /* CSPaginatedResult.m */; };
+		22189D5F18E97D3C006B5873 /* CSPerson.m in Sources */ = {isa = PBXBuildFile; fileRef = AB1D5F4B15DACA2F00207837 /* CSPerson.m */; };
+		22189D6018E97D3C006B5873 /* CSSegment.m in Sources */ = {isa = PBXBuildFile; fileRef = ABBF3BC215DA9FD500DF65C4 /* CSSegment.m */; };
+		22189D6118E97D3C006B5873 /* CSSegmentRule.m in Sources */ = {isa = PBXBuildFile; fileRef = ABBF3BC615DAA0CC00DF65C4 /* CSSegmentRule.m */; };
+		22189D6218E97D3C006B5873 /* CSSubscriber.m in Sources */ = {isa = PBXBuildFile; fileRef = ABA6B61315C6F05800EC55BC /* CSSubscriber.m */; };
+		22189D6318E97D3C006B5873 /* CSSubscriberAction.m in Sources */ = {isa = PBXBuildFile; fileRef = AB63260615DD780E0015100D /* CSSubscriberAction.m */; };
+		22189D6418E97D3C006B5873 /* CSSubscriberHistoryItem.m in Sources */ = {isa = PBXBuildFile; fileRef = AB8BC20E15DD7A5000EF1665 /* CSSubscriberHistoryItem.m */; };
+		22189D6518E97D3C006B5873 /* CSSubscriberImportResult.m in Sources */ = {isa = PBXBuildFile; fileRef = AB8BC21215DD867D00EF1665 /* CSSubscriberImportResult.m */; };
+		22189D6618E97D3C006B5873 /* CSSuppressedRecipient.m in Sources */ = {isa = PBXBuildFile; fileRef = AB396A4F15DD2B4000CA2DE7 /* CSSuppressedRecipient.m */; };
+		22189D6718E97D44006B5873 /* CSTemplate.m in Sources */ = {isa = PBXBuildFile; fileRef = AB1D5F4715DAB71000207837 /* CSTemplate.m */; };
+		22189D6818E97D44006B5873 /* CSWebhook.m in Sources */ = {isa = PBXBuildFile; fileRef = AB9BD7E715D9A77F00C8268A /* CSWebhook.m */; };
+		22189D6918E97D44006B5873 /* CSBillingDetails.m in Sources */ = {isa = PBXBuildFile; fileRef = A315C1CC167B82C00020C198 /* CSBillingDetails.m */; };
+		22189D6A18E97D44006B5873 /* CSCampaignEmailClient.m in Sources */ = {isa = PBXBuildFile; fileRef = A3BE060816820D6400858A00 /* CSCampaignEmailClient.m */; };
+		22189D6B18E97D44006B5873 /* CSListForSubscriber.m in Sources */ = {isa = PBXBuildFile; fileRef = A35F7298168C61E8000BCE27 /* CSListForSubscriber.m */; };
+		22189D6C18E97D5C006B5873 /* CSSSKeychain.m in Sources */ = {isa = PBXBuildFile; fileRef = ABB8B5C615D03E46005343D6 /* CSSSKeychain.m */; };
 		A311D492171FEE19005ECEC5 /* externalsession.json in Resources */ = {isa = PBXBuildFile; fileRef = A311D491171FEE19005ECEC5 /* externalsession.json */; };
 		A31381FD17414AE60065A113 /* libKiwi.a in Frameworks */ = {isa = PBXBuildFile; fileRef = ABA6BBB815C6F19A00EC55BC /* libKiwi.a */; };
 		A315C1CD167B82C00020C198 /* CSBillingDetails.h in Headers */ = {isa = PBXBuildFile; fileRef = A315C1CB167B82C00020C198 /* CSBillingDetails.h */; };
@@ -1181,18 +1205,42 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				22189D5F18E97D3C006B5873 /* CSPerson.m in Sources */,
 				22189D1C18E9753D006B5873 /* CSAPI+Lists.m in Sources */,
+				22189D5918E97D31006B5873 /* CSCampaignRecipient.m in Sources */,
+				22189D6A18E97D44006B5873 /* CSCampaignEmailClient.m in Sources */,
 				22189D1918E9753D006B5873 /* CSAPI+Account.m in Sources */,
 				22189D1818E9753D006B5873 /* CSRestClient.m in Sources */,
+				22189D6518E97D3C006B5873 /* CSSubscriberImportResult.m in Sources */,
+				22189D5D18E97D31006B5873 /* CSList.m in Sources */,
+				22189D5618E97D31006B5873 /* CSCampaign.m in Sources */,
+				22189D6218E97D3C006B5873 /* CSSubscriber.m in Sources */,
+				22189D5718E97D31006B5873 /* CSCampaignBouncedRecipient.m in Sources */,
 				22189D2218E9753D006B5873 /* CSOAuthConfig.m in Sources */,
+				22189D6818E97D44006B5873 /* CSWebhook.m in Sources */,
 				22189D1F18E9753D006B5873 /* CSAPI+Subscribers.m in Sources */,
+				22189D5B18E97D31006B5873 /* CSClient.m in Sources */,
+				22189D6118E97D3C006B5873 /* CSSegmentRule.m in Sources */,
 				22189D2018E9753D006B5873 /* CSAPI+Templates.m in Sources */,
+				22189D6C18E97D5C006B5873 /* CSSSKeychain.m in Sources */,
+				22189D6718E97D44006B5873 /* CSTemplate.m in Sources */,
+				22189D5518E97D31006B5873 /* CSAdministrator.m in Sources */,
+				22189D5E18E97D3C006B5873 /* CSPaginatedResult.m in Sources */,
 				22189D2118E9753D006B5873 /* CSAPI.m in Sources */,
+				22189D6018E97D3C006B5873 /* CSSegment.m in Sources */,
 				22189D1D18E9753D006B5873 /* CSAPI+OAuth.m in Sources */,
+				22189D5A18E97D31006B5873 /* CSCampaignSummary.m in Sources */,
 				22189D1E18E9753D006B5873 /* CSAPI+Segments.m in Sources */,
+				22189D5C18E97D31006B5873 /* CSCustomField.m in Sources */,
+				22189D6618E97D3C006B5873 /* CSSuppressedRecipient.m in Sources */,
+				22189D6318E97D3C006B5873 /* CSSubscriberAction.m in Sources */,
+				22189D6418E97D3C006B5873 /* CSSubscriberHistoryItem.m in Sources */,
 				22189D1B18E9753D006B5873 /* CSAPI+Clients.m in Sources */,
+				22189D6B18E97D44006B5873 /* CSListForSubscriber.m in Sources */,
 				22189D1A18E9753D006B5873 /* CSAPI+Campaigns.m in Sources */,
 				22189D0A18E9750C006B5873 /* CreateSend.m in Sources */,
+				22189D5818E97D31006B5873 /* CSCampaignRecipientClicked.m in Sources */,
+				22189D6918E97D44006B5873 /* CSBillingDetails.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
