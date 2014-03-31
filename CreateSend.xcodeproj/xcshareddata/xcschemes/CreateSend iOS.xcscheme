@@ -16,7 +16,7 @@
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "AB9122EB1563E8610089DE3C"
                BuildableName = "libCreateSend.a"
-               BlueprintName = "iOS"
+               BlueprintName = "CreateSend iOS"
                ReferencedContainer = "container:CreateSend.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>

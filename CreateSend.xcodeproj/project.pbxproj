@@ -7,7 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		22189CDD18E97191006B5873 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 22189CDC18E97191006B5873 /* Cocoa.framework */; };
 		22189CEF18E97191006B5873 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 22189CDC18E97191006B5873 /* Cocoa.framework */; };
 		22189CF218E97191006B5873 /* libCreateSend.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 22189CDB18E97191006B5873 /* libCreateSend.a */; };
 		22189D0A18E9750C006B5873 /* CreateSend.m in Sources */ = {isa = PBXBuildFile; fileRef = ABA6BBAC15C6F0D300EC55BC /* CreateSend.m */; };
@@ -57,6 +56,8 @@
 		22189D3718E9755C006B5873 /* CSBillingDetails.h in Headers */ = {isa = PBXBuildFile; fileRef = A315C1CB167B82C00020C198 /* CSBillingDetails.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		22189D3818E9755C006B5873 /* CSCampaignEmailClient.h in Headers */ = {isa = PBXBuildFile; fileRef = A3BE060716820D6400858A00 /* CSCampaignEmailClient.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		22189D3918E9755C006B5873 /* CSListForSubscriber.h in Headers */ = {isa = PBXBuildFile; fileRef = A35F7297168C61E8000BCE27 /* CSListForSubscriber.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		22189D4E18E97AF9006B5873 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AB9122EF1563E8610089DE3C /* Foundation.framework */; };
+		22189D4F18E97AFA006B5873 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AB9122EF1563E8610089DE3C /* Foundation.framework */; };
 		A311D492171FEE19005ECEC5 /* externalsession.json in Resources */ = {isa = PBXBuildFile; fileRef = A311D491171FEE19005ECEC5 /* externalsession.json */; };
 		A31381FD17414AE60065A113 /* libKiwi.a in Frameworks */ = {isa = PBXBuildFile; fileRef = ABA6BBB815C6F19A00EC55BC /* libKiwi.a */; };
 		A315C1CD167B82C00020C198 /* CSBillingDetails.h in Headers */ = {isa = PBXBuildFile; fileRef = A315C1CB167B82C00020C198 /* CSBillingDetails.h */; };
@@ -465,7 +466,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				22189CDD18E97191006B5873 /* Cocoa.framework in Frameworks */,
+				22189D4E18E97AF9006B5873 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -474,6 +475,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				22189CEF18E97191006B5873 /* Cocoa.framework in Frameworks */,
+				22189D4F18E97AFA006B5873 /* Foundation.framework in Frameworks */,
 				22189CF218E97191006B5873 /* libCreateSend.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -937,9 +939,9 @@
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		22189CDA18E97191006B5873 /* Mac */ = {
+		22189CDA18E97191006B5873 /* CreateSend Mac */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 22189D0318E97191006B5873 /* Build configuration list for PBXNativeTarget "Mac" */;
+			buildConfigurationList = 22189D0318E97191006B5873 /* Build configuration list for PBXNativeTarget "CreateSend Mac" */;
 			buildPhases = (
 				22189CD718E97191006B5873 /* Sources */,
 				22189CD818E97191006B5873 /* Frameworks */,
@@ -949,7 +951,7 @@
 			);
 			dependencies = (
 			);
-			name = Mac;
+			name = "CreateSend Mac";
 			productName = CreateSendMac;
 			productReference = 22189CDB18E97191006B5873 /* libCreateSend.a */;
 			productType = "com.apple.product-type.library.static";
@@ -972,9 +974,9 @@
 			productReference = 22189D4918E979F7006B5873 /* Mac Tests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		AB9122EB1563E8610089DE3C /* iOS */ = {
+		AB9122EB1563E8610089DE3C /* CreateSend iOS */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = AB9123101563E8620089DE3C /* Build configuration list for PBXNativeTarget "iOS" */;
+			buildConfigurationList = AB9123101563E8620089DE3C /* Build configuration list for PBXNativeTarget "CreateSend iOS" */;
 			buildPhases = (
 				AB9122E81563E8610089DE3C /* Sources */,
 				AB9122E91563E8610089DE3C /* Frameworks */,
@@ -984,7 +986,7 @@
 			);
 			dependencies = (
 			);
-			name = iOS;
+			name = "CreateSend iOS";
 			productName = "createsend-objc";
 			productReference = AB9122EC1563E8610089DE3C /* libCreateSend.a */;
 			productType = "com.apple.product-type.library.static";
@@ -1038,8 +1040,8 @@
 			);
 			projectRoot = "";
 			targets = (
-				AB9122EB1563E8610089DE3C /* iOS */,
-				22189CDA18E97191006B5873 /* Mac */,
+				AB9122EB1563E8610089DE3C /* CreateSend iOS */,
+				22189CDA18E97191006B5873 /* CreateSend Mac */,
 				AB9122FB1563E8620089DE3C /* iOS Tests */,
 				22189CEB18E97191006B5873 /* Mac Tests */,
 			);
@@ -1275,7 +1277,7 @@
 /* Begin PBXTargetDependency section */
 		22189CF118E97191006B5873 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 22189CDA18E97191006B5873 /* Mac */;
+			target = 22189CDA18E97191006B5873 /* CreateSend Mac */;
 			targetProxy = 22189CF018E97191006B5873 /* PBXContainerItemProxy */;
 		};
 		A31381F717414AC80065A113 /* PBXTargetDependency */ = {
@@ -1285,7 +1287,7 @@
 		};
 		AB9123031563E8620089DE3C /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = AB9122EB1563E8610089DE3C /* iOS */;
+			target = AB9122EB1563E8610089DE3C /* CreateSend iOS */;
 			targetProxy = AB9123021563E8620089DE3C /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -1523,7 +1525,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		22189D0318E97191006B5873 /* Build configuration list for PBXNativeTarget "Mac" */ = {
+		22189D0318E97191006B5873 /* Build configuration list for PBXNativeTarget "CreateSend Mac" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				22189CFB18E97191006B5873 /* Debug */,
@@ -1550,7 +1552,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		AB9123101563E8620089DE3C /* Build configuration list for PBXNativeTarget "iOS" */ = {
+		AB9123101563E8620089DE3C /* Build configuration list for PBXNativeTarget "CreateSend iOS" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				AB9123111563E8620089DE3C /* Debug */,
