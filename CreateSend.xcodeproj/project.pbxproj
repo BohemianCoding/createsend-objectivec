@@ -7,6 +7,56 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		22189CDD18E97191006B5873 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 22189CDC18E97191006B5873 /* Cocoa.framework */; };
+		22189CEF18E97191006B5873 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 22189CDC18E97191006B5873 /* Cocoa.framework */; };
+		22189CF218E97191006B5873 /* libCreateSend.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 22189CDB18E97191006B5873 /* libCreateSend.a */; };
+		22189D0A18E9750C006B5873 /* CreateSend.m in Sources */ = {isa = PBXBuildFile; fileRef = ABA6BBAC15C6F0D300EC55BC /* CreateSend.m */; };
+		22189D0B18E9750F006B5873 /* CreateSend.h in Headers */ = {isa = PBXBuildFile; fileRef = ABA6B5FC15C6F05800EC55BC /* CreateSend.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		22189D0C18E9752B006B5873 /* CSRestClient.h in Headers */ = {isa = PBXBuildFile; fileRef = ABA6B61015C6F05800EC55BC /* CSRestClient.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		22189D0D18E9752B006B5873 /* CSAPI+Account.h in Headers */ = {isa = PBXBuildFile; fileRef = ABA6B60015C6F05800EC55BC /* CSAPI+Account.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		22189D0E18E9752B006B5873 /* CSAPI+Campaigns.h in Headers */ = {isa = PBXBuildFile; fileRef = ABBF3BBD15DA981400DF65C4 /* CSAPI+Campaigns.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		22189D0F18E9752B006B5873 /* CSAPI+Clients.h in Headers */ = {isa = PBXBuildFile; fileRef = ABBF3BC915DAA5C000DF65C4 /* CSAPI+Clients.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		22189D1118E9752B006B5873 /* CSAPI+Lists.h in Headers */ = {isa = PBXBuildFile; fileRef = ABA6B60215C6F05800EC55BC /* CSAPI+Lists.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		22189D1218E9752B006B5873 /* CSAPI+OAuth.h in Headers */ = {isa = PBXBuildFile; fileRef = ABC2888B15D002A7006947AE /* CSAPI+OAuth.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		22189D1318E9752B006B5873 /* CSAPI+Segments.h in Headers */ = {isa = PBXBuildFile; fileRef = AB1D5F3215DAB0F500207837 /* CSAPI+Segments.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		22189D1418E9752B006B5873 /* CSAPI+Subscribers.h in Headers */ = {isa = PBXBuildFile; fileRef = ABA6B60415C6F05800EC55BC /* CSAPI+Subscribers.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		22189D1518E9752B006B5873 /* CSAPI+Templates.h in Headers */ = {isa = PBXBuildFile; fileRef = AB1D5F4215DAB6CE00207837 /* CSAPI+Templates.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		22189D1618E9752B006B5873 /* CSAPI.h in Headers */ = {isa = PBXBuildFile; fileRef = ABA6B60615C6F05800EC55BC /* CSAPI.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		22189D1718E9752B006B5873 /* CSOAuthConfig.h in Headers */ = {isa = PBXBuildFile; fileRef = AB6B91C015D14BF0002D7FC3 /* CSOAuthConfig.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		22189D1818E9753D006B5873 /* CSRestClient.m in Sources */ = {isa = PBXBuildFile; fileRef = ABA6B61115C6F05800EC55BC /* CSRestClient.m */; };
+		22189D1918E9753D006B5873 /* CSAPI+Account.m in Sources */ = {isa = PBXBuildFile; fileRef = ABA6B60115C6F05800EC55BC /* CSAPI+Account.m */; };
+		22189D1A18E9753D006B5873 /* CSAPI+Campaigns.m in Sources */ = {isa = PBXBuildFile; fileRef = ABBF3BBE15DA981400DF65C4 /* CSAPI+Campaigns.m */; };
+		22189D1B18E9753D006B5873 /* CSAPI+Clients.m in Sources */ = {isa = PBXBuildFile; fileRef = ABBF3BCA15DAA5C000DF65C4 /* CSAPI+Clients.m */; };
+		22189D1C18E9753D006B5873 /* CSAPI+Lists.m in Sources */ = {isa = PBXBuildFile; fileRef = ABA6B60315C6F05800EC55BC /* CSAPI+Lists.m */; };
+		22189D1D18E9753D006B5873 /* CSAPI+OAuth.m in Sources */ = {isa = PBXBuildFile; fileRef = ABC2888C15D002A7006947AE /* CSAPI+OAuth.m */; };
+		22189D1E18E9753D006B5873 /* CSAPI+Segments.m in Sources */ = {isa = PBXBuildFile; fileRef = AB1D5F3315DAB0F500207837 /* CSAPI+Segments.m */; };
+		22189D1F18E9753D006B5873 /* CSAPI+Subscribers.m in Sources */ = {isa = PBXBuildFile; fileRef = ABA6B60515C6F05800EC55BC /* CSAPI+Subscribers.m */; };
+		22189D2018E9753D006B5873 /* CSAPI+Templates.m in Sources */ = {isa = PBXBuildFile; fileRef = AB1D5F4315DAB6CE00207837 /* CSAPI+Templates.m */; };
+		22189D2118E9753D006B5873 /* CSAPI.m in Sources */ = {isa = PBXBuildFile; fileRef = ABA6B60715C6F05800EC55BC /* CSAPI.m */; };
+		22189D2218E9753D006B5873 /* CSOAuthConfig.m in Sources */ = {isa = PBXBuildFile; fileRef = AB6B91C115D14BF0002D7FC3 /* CSOAuthConfig.m */; };
+		22189D2318E9755C006B5873 /* CSAdministrator.h in Headers */ = {isa = PBXBuildFile; fileRef = AB1D5F4E15DAD49F00207837 /* CSAdministrator.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		22189D2418E9755C006B5873 /* CSCampaign.h in Headers */ = {isa = PBXBuildFile; fileRef = AB396A4615DD22A200CA2DE7 /* CSCampaign.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		22189D2518E9755C006B5873 /* CSCampaignBouncedRecipient.h in Headers */ = {isa = PBXBuildFile; fileRef = AB396A5A15DD4A3800CA2DE7 /* CSCampaignBouncedRecipient.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		22189D2618E9755C006B5873 /* CSCampaignRecipientClicked.h in Headers */ = {isa = PBXBuildFile; fileRef = AB396A6215DD4EF900CA2DE7 /* CSCampaignRecipientClicked.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		22189D2718E9755C006B5873 /* CSCampaignRecipient.h in Headers */ = {isa = PBXBuildFile; fileRef = AB396A5615DD46B400CA2DE7 /* CSCampaignRecipient.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		22189D2818E9755C006B5873 /* CSCampaignSummary.h in Headers */ = {isa = PBXBuildFile; fileRef = AB396A5215DD409D00CA2DE7 /* CSCampaignSummary.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		22189D2918E9755C006B5873 /* CSClient.h in Headers */ = {isa = PBXBuildFile; fileRef = ABA6B60815C6F05800EC55BC /* CSClient.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		22189D2A18E9755C006B5873 /* CSCustomField.h in Headers */ = {isa = PBXBuildFile; fileRef = ABA6B60C15C6F05800EC55BC /* CSCustomField.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		22189D2B18E9755C006B5873 /* CSList.h in Headers */ = {isa = PBXBuildFile; fileRef = ABA6B60E15C6F05800EC55BC /* CSList.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		22189D2C18E9755C006B5873 /* CSPaginatedResult.h in Headers */ = {isa = PBXBuildFile; fileRef = AB4547FE15D2E7D6008B5DC7 /* CSPaginatedResult.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		22189D2D18E9755C006B5873 /* CSPerson.h in Headers */ = {isa = PBXBuildFile; fileRef = AB1D5F4A15DACA2F00207837 /* CSPerson.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		22189D2E18E9755C006B5873 /* CSSegment.h in Headers */ = {isa = PBXBuildFile; fileRef = ABBF3BC115DA9FD400DF65C4 /* CSSegment.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		22189D2F18E9755C006B5873 /* CSSegmentRule.h in Headers */ = {isa = PBXBuildFile; fileRef = ABBF3BC515DAA0CC00DF65C4 /* CSSegmentRule.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		22189D3018E9755C006B5873 /* CSSubscriber.h in Headers */ = {isa = PBXBuildFile; fileRef = ABA6B61215C6F05800EC55BC /* CSSubscriber.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		22189D3118E9755C006B5873 /* CSSubscriberAction.h in Headers */ = {isa = PBXBuildFile; fileRef = AB63260515DD780E0015100D /* CSSubscriberAction.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		22189D3218E9755C006B5873 /* CSSubscriberHistoryItem.h in Headers */ = {isa = PBXBuildFile; fileRef = AB8BC20D15DD7A5000EF1665 /* CSSubscriberHistoryItem.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		22189D3318E9755C006B5873 /* CSSubscriberImportResult.h in Headers */ = {isa = PBXBuildFile; fileRef = AB8BC21115DD867D00EF1665 /* CSSubscriberImportResult.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		22189D3418E9755C006B5873 /* CSSuppressedRecipient.h in Headers */ = {isa = PBXBuildFile; fileRef = AB396A4E15DD2B3F00CA2DE7 /* CSSuppressedRecipient.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		22189D3518E9755C006B5873 /* CSTemplate.h in Headers */ = {isa = PBXBuildFile; fileRef = AB1D5F4615DAB71000207837 /* CSTemplate.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		22189D3618E9755C006B5873 /* CSWebhook.h in Headers */ = {isa = PBXBuildFile; fileRef = AB9BD7E615D9A77F00C8268A /* CSWebhook.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		22189D3718E9755C006B5873 /* CSBillingDetails.h in Headers */ = {isa = PBXBuildFile; fileRef = A315C1CB167B82C00020C198 /* CSBillingDetails.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		22189D3818E9755C006B5873 /* CSCampaignEmailClient.h in Headers */ = {isa = PBXBuildFile; fileRef = A3BE060716820D6400858A00 /* CSCampaignEmailClient.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		22189D3918E9755C006B5873 /* CSListForSubscriber.h in Headers */ = {isa = PBXBuildFile; fileRef = A35F7297168C61E8000BCE27 /* CSListForSubscriber.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		A311D492171FEE19005ECEC5 /* externalsession.json in Resources */ = {isa = PBXBuildFile; fileRef = A311D491171FEE19005ECEC5 /* externalsession.json */; };
 		A31381FD17414AE60065A113 /* libKiwi.a in Frameworks */ = {isa = PBXBuildFile; fileRef = ABA6BBB815C6F19A00EC55BC /* libKiwi.a */; };
 		A315C1CD167B82C00020C198 /* CSBillingDetails.h in Headers */ = {isa = PBXBuildFile; fileRef = A315C1CB167B82C00020C198 /* CSBillingDetails.h */; };
@@ -179,6 +229,13 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
+		22189CF018E97191006B5873 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AB9122E31563E8610089DE3C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 22189CDA18E97191006B5873;
+			remoteInfo = CreateSendMac;
+		};
 		A31381F617414AC80065A113 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = ABA6BBAE15C6F19A00EC55BC /* Kiwi.xcodeproj */;
@@ -224,6 +281,12 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		22189CDB18E97191006B5873 /* libCreateSend.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libCreateSend.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		22189CDC18E97191006B5873 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = Library/Frameworks/Cocoa.framework; sourceTree = DEVELOPER_DIR; };
+		22189CDF18E97191006B5873 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		22189CE018E97191006B5873 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		22189CE118E97191006B5873 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		22189CEC18E97191006B5873 /* CreateSendMacTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = CreateSendMacTests.xctest; path = "Mac Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		A311D491171FEE19005ECEC5 /* externalsession.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = externalsession.json; sourceTree = "<group>"; };
 		A315C1CB167B82C00020C198 /* CSBillingDetails.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; lineEnding = 0; path = CSBillingDetails.h; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objcpp; };
 		A315C1CC167B82C00020C198 /* CSBillingDetails.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; lineEnding = 0; path = CSBillingDetails.m; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objc; };
@@ -401,6 +464,23 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		22189CD818E97191006B5873 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				22189CDD18E97191006B5873 /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		22189CE918E97191006B5873 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				22189CEF18E97191006B5873 /* Cocoa.framework in Frameworks */,
+				22189CF218E97191006B5873 /* libCreateSend.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		AB9122E91563E8610089DE3C /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -426,6 +506,16 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		22189CDE18E97191006B5873 /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				22189CDF18E97191006B5873 /* Foundation.framework */,
+				22189CE018E97191006B5873 /* CoreData.framework */,
+				22189CE118E97191006B5873 /* AppKit.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
 		AB45480215D308AA008B5DC7 /* Specs */ = {
 			isa = PBXGroup;
 			children = (
@@ -507,6 +597,7 @@
 			children = (
 				AB9122EC1563E8610089DE3C /* libCreateSend.a */,
 				AB9122FC1563E8620089DE3C /* CreateSendTests.octest */,
+				22189CDB18E97191006B5873 /* libCreateSend.a */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -764,6 +855,48 @@
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
+		22189CD918E97191006B5873 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				22189D2B18E9755C006B5873 /* CSList.h in Headers */,
+				22189D3718E9755C006B5873 /* CSBillingDetails.h in Headers */,
+				22189D2418E9755C006B5873 /* CSCampaign.h in Headers */,
+				22189D0D18E9752B006B5873 /* CSAPI+Account.h in Headers */,
+				22189D3818E9755C006B5873 /* CSCampaignEmailClient.h in Headers */,
+				22189D1118E9752B006B5873 /* CSAPI+Lists.h in Headers */,
+				22189D2D18E9755C006B5873 /* CSPerson.h in Headers */,
+				22189D0E18E9752B006B5873 /* CSAPI+Campaigns.h in Headers */,
+				22189D3618E9755C006B5873 /* CSWebhook.h in Headers */,
+				22189D3318E9755C006B5873 /* CSSubscriberImportResult.h in Headers */,
+				22189D0F18E9752B006B5873 /* CSAPI+Clients.h in Headers */,
+				22189D3418E9755C006B5873 /* CSSuppressedRecipient.h in Headers */,
+				22189D0B18E9750F006B5873 /* CreateSend.h in Headers */,
+				22189D3018E9755C006B5873 /* CSSubscriber.h in Headers */,
+				22189D2718E9755C006B5873 /* CSCampaignRecipient.h in Headers */,
+				22189D1718E9752B006B5873 /* CSOAuthConfig.h in Headers */,
+				22189D0C18E9752B006B5873 /* CSRestClient.h in Headers */,
+				22189D1518E9752B006B5873 /* CSAPI+Templates.h in Headers */,
+				22189D2A18E9755C006B5873 /* CSCustomField.h in Headers */,
+				22189D2518E9755C006B5873 /* CSCampaignBouncedRecipient.h in Headers */,
+				22189D3918E9755C006B5873 /* CSListForSubscriber.h in Headers */,
+				22189D2618E9755C006B5873 /* CSCampaignRecipientClicked.h in Headers */,
+				22189D1418E9752B006B5873 /* CSAPI+Subscribers.h in Headers */,
+				22189D2F18E9755C006B5873 /* CSSegmentRule.h in Headers */,
+				22189D2918E9755C006B5873 /* CSClient.h in Headers */,
+				22189D3518E9755C006B5873 /* CSTemplate.h in Headers */,
+				22189D1618E9752B006B5873 /* CSAPI.h in Headers */,
+				22189D2E18E9755C006B5873 /* CSSegment.h in Headers */,
+				22189D2318E9755C006B5873 /* CSAdministrator.h in Headers */,
+				22189D3218E9755C006B5873 /* CSSubscriberHistoryItem.h in Headers */,
+				22189D2818E9755C006B5873 /* CSCampaignSummary.h in Headers */,
+				22189D1218E9752B006B5873 /* CSAPI+OAuth.h in Headers */,
+				22189D3118E9755C006B5873 /* CSSubscriberAction.h in Headers */,
+				22189D1318E9752B006B5873 /* CSAPI+Segments.h in Headers */,
+				22189D2C18E9755C006B5873 /* CSPaginatedResult.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		AB9122EA1563E8610089DE3C /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
@@ -816,9 +949,44 @@
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		AB9122EB1563E8610089DE3C /* CreateSend */ = {
+		22189CDA18E97191006B5873 /* Mac */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = AB9123101563E8620089DE3C /* Build configuration list for PBXNativeTarget "CreateSend" */;
+			buildConfigurationList = 22189D0318E97191006B5873 /* Build configuration list for PBXNativeTarget "Mac" */;
+			buildPhases = (
+				22189CD718E97191006B5873 /* Sources */,
+				22189CD818E97191006B5873 /* Frameworks */,
+				22189CD918E97191006B5873 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Mac;
+			productName = CreateSendMac;
+			productReference = 22189CDB18E97191006B5873 /* libCreateSend.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		22189CEB18E97191006B5873 /* Mac Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 22189D0418E97191006B5873 /* Build configuration list for PBXNativeTarget "Mac Tests" */;
+			buildPhases = (
+				22189CE818E97191006B5873 /* Sources */,
+				22189CE918E97191006B5873 /* Frameworks */,
+				22189CEA18E97191006B5873 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				22189CF118E97191006B5873 /* PBXTargetDependency */,
+			);
+			name = "Mac Tests";
+			productName = CreateSendMacTests;
+			productReference = 22189CEC18E97191006B5873 /* CreateSendMacTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		AB9122EB1563E8610089DE3C /* iOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AB9123101563E8620089DE3C /* Build configuration list for PBXNativeTarget "iOS" */;
 			buildPhases = (
 				AB9122E81563E8610089DE3C /* Sources */,
 				AB9122E91563E8610089DE3C /* Frameworks */,
@@ -828,14 +996,14 @@
 			);
 			dependencies = (
 			);
-			name = CreateSend;
+			name = iOS;
 			productName = "createsend-objc";
 			productReference = AB9122EC1563E8610089DE3C /* libCreateSend.a */;
 			productType = "com.apple.product-type.library.static";
 		};
-		AB9122FB1563E8620089DE3C /* CreateSendTests */ = {
+		AB9122FB1563E8620089DE3C /* iOS Tests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = AB9123131563E8620089DE3C /* Build configuration list for PBXNativeTarget "CreateSendTests" */;
+			buildConfigurationList = AB9123131563E8620089DE3C /* Build configuration list for PBXNativeTarget "iOS Tests" */;
 			buildPhases = (
 				AB9122F71563E8620089DE3C /* Sources */,
 				AB9122F81563E8620089DE3C /* Frameworks */,
@@ -848,10 +1016,10 @@
 				A31381F717414AC80065A113 /* PBXTargetDependency */,
 				AB9123031563E8620089DE3C /* PBXTargetDependency */,
 			);
-			name = CreateSendTests;
+			name = "iOS Tests";
 			productName = "createsend-objcTests";
-			productReference = AB9122FC1563E8620089DE3C /* CreateSendTests.octest */;
-			productType = "com.apple.product-type.bundle";
+			productReference = AB9122FC1563E8620089DE3C /* CreateSendTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
 		};
 /* End PBXNativeTarget section */
 
@@ -860,7 +1028,8 @@
 			isa = PBXProject;
 			attributes = {
 				CLASSPREFIX = CS;
-				LastUpgradeCheck = 0460;
+				LastTestingUpgradeCheck = 0510;
+				LastUpgradeCheck = 0510;
 				ORGANIZATIONNAME = "Campaign Monitor";
 			};
 			buildConfigurationList = AB9122E61563E8610089DE3C /* Build configuration list for PBXProject "CreateSend" */;
@@ -881,8 +1050,10 @@
 			);
 			projectRoot = "";
 			targets = (
-				AB9122EB1563E8610089DE3C /* CreateSend */,
-				AB9122FB1563E8620089DE3C /* CreateSendTests */,
+				AB9122EB1563E8610089DE3C /* iOS */,
+				22189CDA18E97191006B5873 /* Mac */,
+				AB9122FB1563E8620089DE3C /* iOS Tests */,
+				22189CEB18E97191006B5873 /* Mac Tests */,
 			);
 		};
 /* End PBXProject section */
@@ -919,6 +1090,13 @@
 /* End PBXReferenceProxy section */
 
 /* Begin PBXResourcesBuildPhase section */
+		22189CEA18E97191006B5873 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		AB9122F91563E8620089DE3C /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -1009,6 +1187,32 @@
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		22189CD718E97191006B5873 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				22189D1C18E9753D006B5873 /* CSAPI+Lists.m in Sources */,
+				22189D1918E9753D006B5873 /* CSAPI+Account.m in Sources */,
+				22189D1818E9753D006B5873 /* CSRestClient.m in Sources */,
+				22189D2218E9753D006B5873 /* CSOAuthConfig.m in Sources */,
+				22189D1F18E9753D006B5873 /* CSAPI+Subscribers.m in Sources */,
+				22189D2018E9753D006B5873 /* CSAPI+Templates.m in Sources */,
+				22189D2118E9753D006B5873 /* CSAPI.m in Sources */,
+				22189D1D18E9753D006B5873 /* CSAPI+OAuth.m in Sources */,
+				22189D1E18E9753D006B5873 /* CSAPI+Segments.m in Sources */,
+				22189D1B18E9753D006B5873 /* CSAPI+Clients.m in Sources */,
+				22189D1A18E9753D006B5873 /* CSAPI+Campaigns.m in Sources */,
+				22189D0A18E9750C006B5873 /* CreateSend.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		22189CE818E97191006B5873 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		AB9122E81563E8610089DE3C /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -1081,6 +1285,11 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
+		22189CF118E97191006B5873 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 22189CDA18E97191006B5873 /* Mac */;
+			targetProxy = 22189CF018E97191006B5873 /* PBXContainerItemProxy */;
+		};
 		A31381F717414AC80065A113 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = Kiwi;
@@ -1088,7 +1297,7 @@
 		};
 		AB9123031563E8620089DE3C /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = AB9122EB1563E8610089DE3C /* CreateSend */;
+			target = AB9122EB1563E8610089DE3C /* iOS */;
 			targetProxy = AB9123021563E8620089DE3C /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -1105,13 +1314,111 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
+		22189CFB18E97191006B5873 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "CreateSend/CreateSend-Prefix.pch";
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = CreateSend;
+				PUBLIC_HEADERS_FOLDER_PATH = "include/$(PRODUCT_NAME)";
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		22189CFC18E97191006B5873 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "CreateSend/CreateSend-Prefix.pch";
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				PRODUCT_NAME = CreateSend;
+				PUBLIC_HEADERS_FOLDER_PATH = "include/$(PRODUCT_NAME)";
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		22189CFD18E97191006B5873 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "CreateSendMac/CreateSendMac-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				INFOPLIST_FILE = "CreateSendMacTests/CreateSendMacTests-Info.plist";
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		22189CFE18E97191006B5873 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "CreateSendMac/CreateSendMac-Prefix.pch";
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				INFOPLIST_FILE = "CreateSendMacTests/CreateSendMacTests-Info.plist";
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
 		AB91230E1563E8620089DE3C /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
-				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
 				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
@@ -1125,10 +1432,14 @@
 				);
 				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
 				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
 				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				ONLY_ACTIVE_ARCH = YES;
 				OTHER_LDFLAGS = "-ObjC";
 				SDKROOT = iphoneos;
 			};
@@ -1138,17 +1449,21 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
-				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
 				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				COPY_PHASE_STRIP = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
 				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
 				OTHER_LDFLAGS = "-ObjC";
@@ -1184,7 +1499,7 @@
 			buildSettings = {
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(SDKROOT)/Developer/Library/Frameworks",
-					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+					"$(inherited)",
 				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "CreateSend/CreateSend-Prefix.pch";
@@ -1195,7 +1510,6 @@
 				);
 				PRODUCT_NAME = CreateSendTests;
 				USER_HEADER_SEARCH_PATHS = "\"$(SRCROOT)/CreateSendTests/Frameworks/Kiwi/Kiwi\"";
-				WRAPPER_EXTENSION = octest;
 			};
 			name = Debug;
 		};
@@ -1204,7 +1518,7 @@
 			buildSettings = {
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(SDKROOT)/Developer/Library/Frameworks",
-					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+					"$(inherited)",
 				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "CreateSend/CreateSend-Prefix.pch";
@@ -1215,13 +1529,30 @@
 				);
 				PRODUCT_NAME = CreateSendTests;
 				USER_HEADER_SEARCH_PATHS = "\"$(SRCROOT)/CreateSendTests/Frameworks/Kiwi/Kiwi\"";
-				WRAPPER_EXTENSION = octest;
 			};
 			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		22189D0318E97191006B5873 /* Build configuration list for PBXNativeTarget "Mac" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				22189CFB18E97191006B5873 /* Debug */,
+				22189CFC18E97191006B5873 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		22189D0418E97191006B5873 /* Build configuration list for PBXNativeTarget "Mac Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				22189CFD18E97191006B5873 /* Debug */,
+				22189CFE18E97191006B5873 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		AB9122E61563E8610089DE3C /* Build configuration list for PBXProject "CreateSend" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
@@ -1231,7 +1562,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		AB9123101563E8620089DE3C /* Build configuration list for PBXNativeTarget "CreateSend" */ = {
+		AB9123101563E8620089DE3C /* Build configuration list for PBXNativeTarget "iOS" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				AB9123111563E8620089DE3C /* Debug */,
@@ -1240,7 +1571,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		AB9123131563E8620089DE3C /* Build configuration list for PBXNativeTarget "CreateSendTests" */ = {
+		AB9123131563E8620089DE3C /* Build configuration list for PBXNativeTarget "iOS Tests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				AB9123141563E8620089DE3C /* Debug */,

@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Scheme
-   LastUpgradeVersion = "0460"
+   LastUpgradeVersion = "0510"
    version = "1.3">
    <BuildAction
       parallelizeBuildables = "YES"
@@ -16,7 +16,7 @@
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "AB9122EB1563E8610089DE3C"
                BuildableName = "libCreateSend.a"
-               BlueprintName = "CreateSend"
+               BlueprintName = "iOS"
                ReferencedContainer = "container:CreateSend.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
@@ -34,7 +34,7 @@
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "AB9122FB1563E8620089DE3C"
                BuildableName = "CreateSendTests.octest"
-               BlueprintName = "CreateSendTests"
+               BlueprintName = "iOS Tests"
                ReferencedContainer = "container:CreateSend.xcodeproj">
             </BuildableReference>
          </TestableReference>
