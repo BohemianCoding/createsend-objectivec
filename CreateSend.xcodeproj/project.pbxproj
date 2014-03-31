@@ -283,10 +283,7 @@
 /* Begin PBXFileReference section */
 		22189CDB18E97191006B5873 /* libCreateSend.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libCreateSend.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		22189CDC18E97191006B5873 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = Library/Frameworks/Cocoa.framework; sourceTree = DEVELOPER_DIR; };
-		22189CDF18E97191006B5873 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
-		22189CE018E97191006B5873 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
-		22189CE118E97191006B5873 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
-		22189CEC18E97191006B5873 /* CreateSendMacTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = CreateSendMacTests.xctest; path = "Mac Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		22189D4918E979F7006B5873 /* Mac Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Mac Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		A311D491171FEE19005ECEC5 /* externalsession.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = externalsession.json; sourceTree = "<group>"; };
 		A315C1CB167B82C00020C198 /* CSBillingDetails.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; lineEnding = 0; path = CSBillingDetails.h; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objcpp; };
 		A315C1CC167B82C00020C198 /* CSBillingDetails.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; lineEnding = 0; path = CSBillingDetails.m; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objc; };
@@ -408,7 +405,7 @@
 		AB8BC21215DD867D00EF1665 /* CSSubscriberImportResult.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; lineEnding = 0; path = CSSubscriberImportResult.m; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objc; };
 		AB9122EC1563E8610089DE3C /* libCreateSend.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libCreateSend.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		AB9122EF1563E8610089DE3C /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
-		AB9122FC1563E8620089DE3C /* CreateSendTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CreateSendTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		AB9122FC1563E8620089DE3C /* CreateSendTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = CreateSendTests.octest; path = CreateSendTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		AB9122FD1563E8620089DE3C /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
 		AB9122FF1563E8620089DE3C /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		AB9BD7E615D9A77F00C8268A /* CSWebhook.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; lineEnding = 0; path = CSWebhook.h; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objcpp; };
@@ -506,16 +503,6 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		22189CDE18E97191006B5873 /* Other Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-				22189CDF18E97191006B5873 /* Foundation.framework */,
-				22189CE018E97191006B5873 /* CoreData.framework */,
-				22189CE118E97191006B5873 /* AppKit.framework */,
-			);
-			name = "Other Frameworks";
-			sourceTree = "<group>";
-		};
 		AB45480215D308AA008B5DC7 /* Specs */ = {
 			isa = PBXGroup;
 			children = (
@@ -598,6 +585,7 @@
 				AB9122EC1563E8610089DE3C /* libCreateSend.a */,
 				AB9122FC1563E8620089DE3C /* CreateSendTests.octest */,
 				22189CDB18E97191006B5873 /* libCreateSend.a */,
+				22189D4918E979F7006B5873 /* Mac Tests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -981,7 +969,7 @@
 			);
 			name = "Mac Tests";
 			productName = CreateSendMacTests;
-			productReference = 22189CEC18E97191006B5873 /* CreateSendMacTests.xctest */;
+			productReference = 22189D4918E979F7006B5873 /* Mac Tests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
 		AB9122EB1563E8610089DE3C /* iOS */ = {
@@ -1018,7 +1006,7 @@
 			);
 			name = "iOS Tests";
 			productName = "createsend-objcTests";
-			productReference = AB9122FC1563E8620089DE3C /* CreateSendTests.xctest */;
+			productReference = AB9122FC1563E8620089DE3C /* CreateSendTests.octest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
 /* End PBXNativeTarget section */
