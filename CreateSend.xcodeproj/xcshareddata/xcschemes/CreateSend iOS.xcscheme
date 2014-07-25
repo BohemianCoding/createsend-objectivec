@@ -49,6 +49,15 @@
       ignoresPersistentStateOnLaunch = "NO"
       debugDocumentVersioning = "YES"
       allowLocationSimulation = "YES">
+      <MacroExpansion>
+         <BuildableReference
+            BuildableIdentifier = "primary"
+            BlueprintIdentifier = "AB9122EB1563E8610089DE3C"
+            BuildableName = "libCreateSend.a"
+            BlueprintName = "CreateSend iOS"
+            ReferencedContainer = "container:CreateSend.xcodeproj">
+         </BuildableReference>
+      </MacroExpansion>
       <AdditionalOptions>
       </AdditionalOptions>
    </LaunchAction>
